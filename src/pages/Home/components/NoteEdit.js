@@ -7,7 +7,7 @@ const NoteEdit = ({ add, isSubmitting }) => {
   // Note的基本架構
   const [formData, setFormData] = useState({
     title: "",
-    category: "",
+    category: "React",
     date: "",
     url: "",
   });
