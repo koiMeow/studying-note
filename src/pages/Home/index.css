@@ -1,0 +1,95 @@
+:root {
+  --background-color: #121212;
+  --foreground-color: #e0e0e0;
+  --primary-color: #1f1f1f;
+  --secondary-color: #2a2a2a;
+  --accent-color: #bb86fc;
+  --error-color: #cf6679;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+
+.home {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+input, select {
+  width: 100%;
+  height: 30px;
+  background-color: var(--secondary-color);
+  color: var(--foreground-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.add {
+  margin-top: 20px;
+  background-color: var(--accent-color);
+  color: var(--foreground-color);
+  border: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.list {
+  padding-top: 20px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+.item {
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.remove {
+  border: 0;
+  background-color: var(--error-color);
+  color: var(--foreground-color);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid var(--secondary-color);
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  background-color: var(--secondary-color);
+  color: var(--foreground-color);
+  font-weight: bold;
+}
+
+.tab:hover {
+  background-color: var(--primary-color);
+}
+
+.tab.active {
+  background-color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  border-radius: 5px 5px 0 0;
+}

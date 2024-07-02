@@ -1,0 +1,24 @@
+{
+  "notes": [
+    {
+      "data": [
+        {
+          "id": "bd6db4d5-8814-4eef-ac39-7a5eb876eb29",
+          "title": "Building a compiler",
+          "category": "C#",
+          "date": "2024-07-02",
+          "url": "https://youtube.com/playlist?list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&si=u7wwvci2-nAqSNDt"
+        },
+        {
+          "id": "8631a964-0e41-4b6f-8ac5-676207fc8b40",
+          "title": "2小時React快速入門 - React基礎教學",
+          "category": "React",
+          "date": "2024-07-02",
+          "url": "https://www.youtube.com/watch?v=aBTiZfShe-4",
+          "Category": "RR"
+        }
+      ],
+      "id": "1"
+    }
+  ]
+}
